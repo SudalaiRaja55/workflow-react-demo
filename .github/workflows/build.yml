@@ -1,7 +1,7 @@
 name: Running npm build 
-on: workflow_dispatch
+on: push
 jobs:
-  npm build job:
+  npm-build-job:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
